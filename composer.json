@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
+    "name": "orazicz/:package_slug",
     "description": ":package_description",
     "keywords": [
-        ":vendor_name",
+        "orazicz",
         "laravel",
         ":package_slug"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/orazicz/:package_slug",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "orazicz",
+            "email": "info@orazi.cz",
             "role": "Developer"
         }
     ],
@@ -35,13 +35,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Orazicz\\Skeleton\\": "src",
+            "Orazicz\\Skeleton\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Orazicz\\Skeleton\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -61,10 +61,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Orazicz\\Skeleton\\SkeletonServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "Skeleton": "Orazicz\\Skeleton\\Facades\\Skeleton"
             }
         }
     },
